@@ -14,32 +14,71 @@ body{
 
 .page-action-cont {
     height: 3rem;
-    background-color: aquamarine;
+    background-color: #1c1c1e;
     display: flex;
     align-items: center;
+    padding:0.5rem;
 }
 
 .page-action {
     margin: 0.5rem;
-    color: grey;
+    color: #f1f2f6;
 }
 
 .cellproperty-action-cont {
     height: 3rem;
     background-color: bisque;
+    display:flex;
+    align-items: center;
+    padding: 0.5rem;
 }
 
+.material-icons {
+    margin: 0.5rem;
+}
+
+.font-family {
+    margin: 0.5rem;
+    padding: 0.2rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.font-size {
+    padding: 0.2rem;
+    margin: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
 .formula-action-cont {
     height: 3rem;
     background-color: yellowgreen;
 }
 
-.sheets-cont {
-    height: 3rem;
-    background-color: chocolate;
-}
-
 .grid-cont {
     height: calc(100vh - 12rem);
 }
+
+.sheets-cont {
+    height: 3rem;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+}
+
+.sheets-folder {
+    background-color: pink;
+    height: 75%;
+    width: calc(100vw - 3rem);
+    display: flex;
+    align-items: center;
+}
+
+.sheets {
+    padding: 0.5rem;
+    text-decoration: none;
+}
+
 
